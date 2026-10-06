@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página no GitHub</title>
+    <!-- Usando Tailwind CSS via CDN para estilização rápida e bonita -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-br from-slate-900 via-purple-950 to-slate-900 text-slate-100 min-h-screen flex flex-col justify-between selection:bg-purple-500 selection:text-white">
 
+    <!-- Cabeçalho -->
+    <header class="w-full max-w-4xl mx-auto p-6 flex justify-between items-center">
+        <h1 class="text-xl font-bold tracking-wider bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+            MeuPortfólio.dev
+        </h1>
+        <nav class="space-x-6 text-sm text-slate-300">
+            <a href="#sobre" class="hover:text-purple-400 transition">Sobre</a>
+            <a href="#projetos" class="hover:text-purple-400 transition">Projetos</a>
+            <a href="#contato" class="hover:text-purple-400 transition">Contato</a>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main class="w-full max-w-4xl mx-auto px-6 py-12 flex flex-col items-center text-center my-auto">
+        
+        <!-- Avatar / Ícone -->
+        <div class="w-24 h-24 rounded-full bg-gradient-to-tr from-purple-500 to-pink-500 flex items-center justify-center text-3xl font-bold shadow-lg shadow-purple-500/30 mb-6 animate-pulse">
+            🚀
+        </div>
+
+        <!-- Título Principal -->
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-4 tracking-tight">
+            Olá, eu sou <span class="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Seu Nome</span>
+        </h2>
+
+        <!-- Descrição -->
+        <p class="text-slate-400 text-lg max-w-xl mb-8 leading-relaxed">
+            Bem-vindo à minha página pessoal hospedada no GitHub Pages! Aqui compartilho um pouco sobre mim e meus projetos de tecnologia.
+        </p>
+
+        <!-- Botões de Ação -->
+        <div class="flex flex-wrap justify-center gap-4">
+            <a href="https://github.com/SEU-USUARIO" target="_blank" class="px-6 py-3 bg-purple-600 hover:bg-purple-500 text-white font-medium rounded-xl shadow-lg shadow-purple-600/30 transition transform hover:-translate-y-0.5">
+                Ver GitHub
+            </a>
+            <a href="#contato" class="px-6 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium rounded-xl border border-slate-700 transition">
+                Fale Comigo
+            </a>
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="w-full max-w-4xl mx-auto p-6 text-center text-sm text-slate-500 border-t border-slate-800/60">
+        <p>&copy; 2026 Seu Nome. Feito com HTML & Tailwind CSS.</p>
+    </footer>
+
+</body>
+</html>
